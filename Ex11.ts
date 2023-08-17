@@ -2,8 +2,7 @@
 
 
 
-var bestfriend:string []=["Warren Buffet", "Jeff Bezos", "Christiano Ronaldo", "Quaid e Azam"]
-console.log(bestfriend[0])
-console.log(bestfriend[1])
-console.log(bestfriend[2])
-console.log(bestfriend[3])
+const bestfriend:string[] =["Warren Buffet", "Jeff Bezos", "Christiano Ronaldo", "Quaid e Azam"]
+bestfriend.forEach((bestfriend) => {console.log(bestfriend)
+    
+});
